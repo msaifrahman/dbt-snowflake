@@ -10,6 +10,8 @@ on:
 
 env:
   SNOWFLAKE_PWD: ${{ secrets.SNOWFLAKE_PWD }}
+  DBT_PROJECT_DIR: ./nyc_weather
+  DBT_PROFILES_DIR: ./nyc_weather
 
 jobs:
   build:
